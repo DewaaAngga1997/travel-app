@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      //menambahkan class warna tailwind
       colors :{
         "ungu" : '#5D50C6',
         "pink" : '#F85E9F',
