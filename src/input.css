@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    @font-face {
-        font-family: 'Circular STD';
-        src: url('../public/font/CircularStd-Bold.woff') format('woff');
-    }
-    html {
-        font-family: inter;
-        src: url('../public/font/Inter-Regular.ttf') format('ttf');
-    }
-    h1 {
-        font-family: Circular STD;
-    }
+@layer base {
+  @font-face {
+    font-family: "Circular STD";
+    src: url("../public/font/CircularStd-Bold.woff") format("woff");
+  }
+  html {
+    font-family: "Inter";
+    src: url("../public/font/Inter-Regular.ttf") format("ttf");
+  }
+  h1 {
+    font-family: Circular STD;
+  }
 }
