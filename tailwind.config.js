@@ -6,8 +6,8 @@ module.exports = {
       //menambahkan class warna tailwind
       colors: {
         color1: "#5D50C6",
-        pink: "#F85E9F",
-        orange: "#FF5722",
+        color2: "#F85E9F",
+        color3: "#FF5722",
         grey: "#222831",
       },
     },
