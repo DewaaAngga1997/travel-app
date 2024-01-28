@@ -6,6 +6,7 @@
     <title>Travel</title>
     <!-- Tailwind Css -->
     <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -33,12 +34,12 @@
             <li
               class="text-base font-Circular hover:text-color1 hover:font-bold"
             >
-              <a href="">Discover</a>
+              <a href="#discover">Discover</a>
             </li>
             <li
               class="text-base font-Circular hover:text-color1 hover:font-bold"
             >
-              <a href="">Special Deals</a>
+              <a href="#destination">Special Deals</a>
             </li>
             <li
               class="text-base font-Circular hover:text-color1 hover:font-bold"
@@ -121,6 +122,8 @@
     <!-- Media Pratners -->
     <section>
       <div
+        data-aos="fade-up"
+        id="discover"
         class="flex flex-justify-center gap-7 flex-wrap justify-center lg:gap-24 py-8 md:px-40"
       >
         <a href="https://www.expedia.co.id/" target="_blank">
@@ -169,7 +172,8 @@
       >
         <div class="grid grid-cols-12 gap-4">
           <div
-            class="col-span-12 lg:col-span-4 order-1 text-center flex flex-col justify-center lg:text-left"
+            data-aos="fade-up"
+            class="col-span-12 lg:col-span-4 text-center flex flex-col justify-center lg:text-left"
           >
             <h1
               class="text-color2 font-bold text-base md:text-2xl pt-8 pb-2 mx-auto lg:ml-0"
@@ -182,7 +186,7 @@
               Our top value categories for you
             </h1>
           </div>
-          <div class="col-span-12 lg:col-span-8 order-2">
+          <div data-aos="fade-up" class="col-span-12 lg:col-span-8 order-2">
             <div
               class="flex flex-col gap-4 lg:gap-5 md:flex-row justify-center items-center"
             >
@@ -235,11 +239,388 @@
         </div>
       </div>
     </section>
+    <!-- End Services -->
+
+    <!-- Top Destinations -->
+    <section>
+      <div
+        data-aos="fade-up"
+        data-aos-offset="300"
+        id="destination"
+        class="container mx-auto px-4 pb-4 flex flex-col justify-center items-center lg:pt-16 lg:items-start"
+      >
+        <div class="gap-4">
+          <div
+            class="col-span-12 lg:col-span-4 order-1 text-center flex flex-col justify-center lg:text-left"
+          >
+            <div>
+              <div>
+                <h1
+                  class="text-color2 font-bold text-base md:text-2xl pt-8 pb-2 mx-auto lg:ml-0"
+                >
+                  TOP DESTINATION
+                </h1>
+                <h1
+                  class="font-bold text-[32px] leading-tight pb-8 md:text-[40px] lg:text-[44px]"
+                >
+                  Explore top destination
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex flex-col gap-8 lg:gap-5 md:flex-row justify-center items-center"
+            >
+              <!-- destination 1 -->
+              <div
+                class="w-[398px] h-[575px] rounded-3xl overflow-hidden flex flex-col justify-start items-center gap-8 border drop-shadow-lg md:w-[278px] md:h-[575px] lg:w-[350px] lg:h-[443px] xl:w-[373px] xl:h-[575px]"
+              >
+                <img
+                  src="https://img.freepik.com/free-photo/balinese-people-traditional-clothes-during-religious-ceremony-pura-taman-ayun-temple-bali-indonesia_335224-390.jpg?w=1380&t=st=1706411732~exp=1706412332~hmac=b33ed989844461702f1e210415c97edcdb295b57b319137b5aeff2af2854ab17"
+                  alt="Destination"
+                  class="h-[314px] w-full"
+                />
+                <div
+                  class="w-[334px] h-[137px] md:w-[214px] md:h-[137px] flex flex-col xl:w-[309px] xl:h-[101px]"
+                >
+                  <div class="xl:mx-8">
+                    <div class="xl:flex xl:justify-between justify-start">
+                      <h1 class="text-color2 font-bold text-2xl order-2">
+                        $550
+                      </h1>
+                      <h1
+                        class="font-bold text-2xl md:text-xl xl:text-2xl order-1"
+                      >
+                        Swing Garden Temple
+                      </h1>
+                    </div>
+                    <p class="text-lg text-gray-800 lg:hidden xl:flex">
+                      Kec. Mengwi, <br />
+                      Kabupaten Badung, Bali
+                    </p>
+                  </div>
+                  <div class="py-8 md:mx-8">
+                    <div
+                      class="flex items-center gap-2 text-color3 text-[23px] font-bold lg:hidden xl:flex"
+                    >
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- destination 2 -->
+              <div
+                class="w-[398px] h-[575px] rounded-3xl overflow-hidden flex flex-col justify-start items-center gap-8 border drop-shadow-lg md:w-[278px] md:h-[575px] lg:w-[350px] lg:h-[443px] xl:w-[373px] xl:h-[575px]"
+              >
+                <img
+                  src="https://img.freepik.com/free-photo/umbrella-chair-beach-sea_74190-1001.jpg?w=1380&t=st=1706414919~exp=1706415519~hmac=892dbfef8021b5a24b3ae54cc16cbcf698420e1ef939df07a15aab7fcfe0a474"
+                  alt="Destination"
+                  class="h-[314px] w-full"
+                />
+                <div
+                  class="w-[334px] h-[137px] md:w-[214px] md:h-[137px] text-start flex flex-col mx-8 xl:w-[309px] xl:h-[101px]"
+                >
+                  <div class="xl:mx-8">
+                    <div class="xl:flex xl:justify-between">
+                      <h1 class="text-color2 font-bold text-2xl order-2">
+                        $600
+                      </h1>
+                      <h1
+                        class="font-bold text-2xl md:text-xl xl:text-2xl order-1"
+                      >
+                        Legian Kuta Beach
+                      </h1>
+                    </div>
+                    <p class="text-lg text-gray-800 lg:hidden xl:flex">
+                      Kec. Kuta, <br />
+                      Kabupaten Badung, Bali
+                    </p>
+                  </div>
+                  <div class="py-8 md:mx-8">
+                    <div
+                      class="flex items-center gap-2 text-color3 text-[23px] font-bold lg:hidden xl:flex"
+                    >
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- destination 3 -->
+              <div
+                class="w-[398px] h-[575px] rounded-3xl overflow-hidden flex flex-col justify-start items-center gap-8 border drop-shadow-lg md:w-[278px] md:h-[575px] lg:w-[350px] lg:h-[443px] xl:w-[373px] xl:h-[575px]"
+              >
+                <img
+                  src="https://img.freepik.com/free-photo/kelingking-beach-sunset-nusa-penida-island-bali-indonesia_335224-338.jpg?w=1380&t=st=1706414564~exp=1706415164~hmac=5e00948419686be6a19001699447292d3c6b7ad74431f8fabd9da9e3f21be4ab"
+                  alt="Destination"
+                  class="h-[314px] w-full"
+                />
+                <div
+                  class="w-[334px] h-[137px] md:w-[214px] md:h-[137px] text-start flex flex-col mx-8 xl:w-[309px] xl:h-[101px]"
+                >
+                  <div class="xl:mx-8">
+                    <div class="xl:flex xl:justify-between">
+                      <h1 class="text-color2 font-bold text-2xl order-2">
+                        $700
+                      </h1>
+                      <h1
+                        class="font-bold text-2xl md:text-xl xl:text-2xl order-1"
+                      >
+                        Kelingking Beach
+                      </h1>
+                    </div>
+                    <p class="text-lg text-gray-800 lg:hidden xl:flex">
+                      Kec. Nusa Penida,<br />
+                      Kabupaten Klungkung, Bali
+                    </p>
+                  </div>
+                  <div class="py-8 md:mx-8">
+                    <div
+                      class="flex items-center gap-2 text-color3 text-[23px] font-bold lg:hidden xl:flex"
+                    >
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- destination 4 -->
+              <div
+                class="w-[398px] h-[575px] rounded-3xl overflow-hidden flex flex-col justify-start items-center gap-8 border drop-shadow-lg md:w-[278px] md:h-[575px] lg:w-[350px] lg:h-[443px] xl:w-[373px] xl:h-[575px]"
+              >
+                <img
+                  src="https://img.freepik.com/free-photo/aerial-view-terraced-rice-fields-bali-indonesia_335224-314.jpg?w=1380&t=st=1706423194~exp=1706423794~hmac=030743372109341575a003eafaba8474d26ece05ced6a3d19fadc38e23c84226"
+                  alt="Destination"
+                  class="h-[314px] w-full"
+                />
+                <div
+                  class="w-[334px] h-[137px] md:w-[214px] md:h-[137px] text-start flex flex-col mx-8 xl:w-[309px] xl:h-[101px]"
+                >
+                  <div class="xl:mx-8">
+                    <div class="xl:flex xl:justify-between">
+                      <h1 class="text-color2 font-bold text-2xl order-2">
+                        $700
+                      </h1>
+                      <h1
+                        class="font-bold text-2xl md:text-xl xl:text-2xl order-1"
+                      >
+                        Campuhan Hill Ubud
+                      </h1>
+                    </div>
+                    <p class="text-lg text-gray-800 lg:hidden xl:flex">
+                      Kec. Payangan,<br />
+                      Kabupaten Gianyar, Bali
+                    </p>
+                  </div>
+                  <div class="py-8 md:mx-8">
+                    <div
+                      class="flex items-center gap-2 text-color3 text-[23px] font-bold lg:hidden xl:flex"
+                    >
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                      <img
+                        class="w-6 h-6"
+                        src="../public/assets/icons/star.png"
+                        alt="star "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden md:flex md:justify-center md:items-center pb-3 lg:justify-center"
+      >
+        <button class="text-slate-400 hover:text-color1">
+          <ion-icon
+            name="arrow-back-circle-outline"
+            class="h-16 w-16"
+          ></ion-icon>
+        </button>
+        <button class="text-slate-400 hover:text-color1">
+          <ion-icon
+            name="arrow-forward-circle-outline"
+            class="h-16 w-16"
+          ></ion-icon>
+        </button>
+      </div>
+    </section>
+    <!-- End Top Destination -->
+
+    <!-- Travel Point -->
+    <section>
+      <div>
+        <div class="py-16 grid grid-cols-12">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            class="col-span-12 lg:col-span-7"
+          >
+            <img src="../public/assets/travel.png" alt="Bali" class="" />
+          </div>
+          <div class="col-span-12 xl:col-span-5 xl:w-[441px]">
+            <div
+              class="text-center xl:text-left flex flex-col justify-center mt-16"
+            >
+              <h1 class="text-color2 font-bold text-base md:text-2xl pt-8 pb-2">
+                TRAVEL POINT
+              </h1>
+              <h1
+                class="font-bold text-[32px] leading-tight pb-8 md:text-[40px] lg:text-[44px]"
+              >
+                We helping you find your dream location
+              </h1>
+              <p class="text-slate-400 pb-8">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC.
+              </p>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-4 xl:justify-start"
+            >
+              <div
+                class="w-[398px] h-[151px] rounded-3xl border drop-shadow-xl lg:w-[204px] lg:h-[151px]"
+              >
+                <div class="mt-8">
+                  <h1 class="font-bold text-4xl text-color3 text-center">
+                    500+
+                  </h1>
+                  <p class="text-lg text-slate-900 text-center mt-4">
+                    Holiday Package
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="w-[398px] h-[151px] rounded-3xl border drop-shadow-xl lg:w-[204px] lg:h-[151px]"
+              >
+                <div class="mt-8">
+                  <h1 class="font-bold text-4xl text-color3 text-center">
+                    100
+                  </h1>
+                  <p class="text-lg text-slate-900 text-center mt-4">
+                    Luxury Hotel
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[398px] h-[151px] rounded-3xl border drop-shadow-xl lg:w-[204px] lg:h-[151px]"
+              >
+                <div class="mt-8">
+                  <h1 class="font-bold text-4xl text-color3 text-center">
+                    376
+                  </h1>
+                  <p class="text-lg text-slate-900 text-center mt-4">
+                    Premium Airlines
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-[398px] h-[151px] rounded-3xl border drop-shadow-xl lg:w-[204px] lg:h-[151px]"
+              >
+                <div class="mt-8">
+                  <h1 class="font-bold text-4xl text-color3 text-center">
+                    2000+
+                  </h1>
+                  <p class="text-lg text-slate-900 text-center mt-4">
+                    Happy Customer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Travel Point -->
 
     <!-- iconions CDN -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
