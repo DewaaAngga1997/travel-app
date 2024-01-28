@@ -447,12 +447,12 @@ video {
 @font-face {
   font-family: "Circular STD";
 
-  src: url("../public/font/CircularStd-Bold.woff") format("woff");
+  src: url("/src/public/font/CircularStd-Bold.woff") format("woff");
 }
 
 html {
   font-family: "Inter";
-  src: url("../public/font/Inter-Regular.ttf") format("ttf");
+  src: url("/src/public/font/Inter-Regular.ttf") format("ttf");
 }
 
 h1 {
